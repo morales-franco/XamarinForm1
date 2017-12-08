@@ -13,7 +13,7 @@
                 <StackLayout Padding="0,0,0,10" VerticalOptions="End">
                     <Button x:Name="btnBuscar" Text="Buscar clima" WidthRequest="185" BorderWidth="1" Clicked="btnBuscar_Clicked"/>
                 </StackLayout>
-            </StackLayout>
+            </StackLayout> 
             <StackLayout Padding="10,10,10,10" HorizontalOptions="Start">
                 <Label Text="Ubicación" TextColor="#a8a8a8" FontSize="Small"/>
                 <Label Text="{Binding Titulo}" TextColor="White" FontSize="Medium"/>
